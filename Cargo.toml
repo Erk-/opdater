@@ -1,0 +1,16 @@
+[workspace]
+members = [
+        "opdater",
+        "opdater_derive",
+        "opdater_test",
+]
+resolver = "3"
+
+[workspace.package]
+license = "ISC"
+edition = "2024"
+repository = "https://github.com/erk-/opdater.git"
+
+[workspace.dependencies]
+opdater = { path = "opdater" }
+opdater_derive = { path = "opdater_derive" }

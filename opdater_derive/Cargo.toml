@@ -1,0 +1,16 @@
+[package]
+name = "opdater_derive"
+version = "0.1.0"
+edition = { workspace = true }
+license = { workspace = true }
+reporsitory = { workspace = true }
+documentation = "https://docs.rs/opdater_derive"
+description = "Derive macro to implement Opdater for structs" 
+publish = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.38"
+syn = { version = "2.0.96", default-features = false, features = ["derive", "proc-macro", "parsing"] }
