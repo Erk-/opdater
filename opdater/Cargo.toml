@@ -1,6 +1,6 @@
 [package]
 name = "opdater"
-version = "0.1.0"
+version = "0.1.1"
 edition = { workspace = true }
 license = { workspace = true }
 reporsitory = { workspace = true }
@@ -8,6 +8,7 @@ include = ["src/**/*.rs"]
 documentation = "https://docs.rs/opdater"
 description = "Small trait based approch to struct updates"
 publish = true
+readme = "../README.md"
 
 [dependencies]
 opdater_derive = { workspace = true }
